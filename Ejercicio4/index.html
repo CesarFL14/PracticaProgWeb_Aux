@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>Ejercicio 4 - Buscador de Digimon</title>
+  <link rel="stylesheet" href="estilo.css">
+</head>
+<body>
+  <header>
+    <h1>Ejercicio 4: Buscador de Digimon</h1>
+    <p><strong>Nombre:</strong> Flores Laura Cesar Mauricio</p>
+    <p><strong>CI:</strong> 13495243</p>
+  </header>
+
+  <main>
+    <section>
+      <h2>Buscar Digimon</h2>
+      <label for="tipo">Tipo de búsqueda:</label>
+      <select id="tipo">
+        <option value="all">Todos</option>
+        <option value="name">Por nombre</option>
+        <option value="level">Por nivel</option>
+      </select>
+      <input type="text" id="valor" placeholder="Ejemplo: Agumon o rookie">
+      <button id="buscarBtn">Buscar</button>
+      <p id="mensaje"></p>
+    </section>
+
+    <section>
+      <table id="tabla">
+        <thead>
+          <tr>
+            <th>#</th>
+            <th>Nombre</th>
+            <th>Nivel</th>
+          </tr>
+        </thead>
+        <tbody></tbody>
+      </table>
+    </section>
+  </main>
+
+  <script src="app.js"></script>
+</body>
+</html>

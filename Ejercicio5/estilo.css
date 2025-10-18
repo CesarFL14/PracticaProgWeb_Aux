@@ -1,0 +1,54 @@
+body {
+  font-family: Arial, sans-serif;
+  background: #eef1f4;
+  padding: 20px;
+}
+
+header {
+  background: #003566;
+  color: white;
+  padding: 12px;
+  border-radius: 8px;
+}
+
+.nav {
+  margin: 10px 0;
+}
+
+button {
+  padding: 6px 10px;
+  margin: 0 4px;
+  background-color: #118ab2;
+  color: white;
+  border: none;
+  border-radius: 5px;
+}
+
+button:hover {
+  background-color: #0b6787;
+}
+
+.galeria {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(130px, 1fr));
+  gap: 12px;
+  margin-top: 20px;
+}
+
+.card {
+  background: white;
+  border-radius: 8px;
+  padding: 10px;
+  box-shadow: 0 1px 3px rgba(0,0,0,0.2);
+  text-align: center;
+}
+
+.card img {
+  width: 96px;
+  height: 96px;
+}
+
+#mensaje {
+  margin-top: 10px;
+  color: #333;
+}
